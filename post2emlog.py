@@ -28,7 +28,7 @@ def jwemlogpost(title, content, abstract, tag_set):
     ##    print post_sql
         data = cur.execute(post_sql)
         
-        # post tag some bugs
+        # post tag
         for each_tag in tag_set:
             print each_tag
             tag = each_tag
